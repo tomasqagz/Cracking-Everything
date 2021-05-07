@@ -7,7 +7,3 @@ def catAndMouse(x, y, z):
 
     else:
         return ("Mouse C")
-
-
-c = catAndMouse(5, 10, 6)
-print(c)
