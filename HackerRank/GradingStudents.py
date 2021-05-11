@@ -1,5 +1,6 @@
-arr = []
-   for i in range(0, len(grades)):
+def gradingStudents(grades):
+    arr = []
+    for i in range(0, len(grades)):
         rn = 0
         if grades[i] % 5 == 0 or grades[i] < 38:
             arr.append(grades[i])
