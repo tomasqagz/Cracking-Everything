@@ -1,4 +1,7 @@
+from typing import Counter
+
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        return sorted(s) == sorted(t)
+        return Counter(s) == Counter(t)
 # Given two strings s and t, return true if t is an anagram of s, and false otherwise.
